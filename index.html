@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>{{main.title}}</title>
+	</head>
+	<body ng-controller="MainController as main">
+		<h1>{{main.title}}</h1>
+
+		<div random-color><b>{{main.post.title}}</b> ({{main.post.author}})</div>
+		<div class='score'>Score: {{main.post.score}}</div>
+
+    <button ng-click='main.update()'>Get new thought</button>
+
+	</body>
+
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+
+</html>
