@@ -1,0 +1,24 @@
+{
+  "name": "showerthoughts",
+  "version": "0.0.0",
+  "authors": [
+    "Justas <justasb@wix.com>"
+  ],
+  "description": "AngularJS Reddit parser",
+  "main": "index.html",
+  "keywords": [
+    "Reddit",
+    "AngularJS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1"
+  }
+}
